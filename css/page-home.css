@@ -1,0 +1,325 @@
+.carousel {
+    padding-top: 20px;
+}
+
+.home-body {
+    -ms-flex-flow: row wrap;
+    -ms-flex-pack: justify;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.home-course {
+    width: 100%;
+}
+.home-course-link {
+    -ms-flex-flow: column wrap;
+    -ms-flex-pack: start;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.home-course-icon {
+    height: 6rem;
+    margin: 3rem 0 2.25rem;
+    width: 100%;
+}
+.home-course-text {
+    color: #666;
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+.home-course-title {
+    color: #666;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0 0 1rem;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+@media (min-width: 500px) {
+  .home-course {
+      margin: 0;
+      width: 22rem;
+  }
+}
+.calendario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.cal-titulo {
+    font-size: 2.4rem;
+    color: #624b84;
+    margin-top: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 150%;
+}
+a, abbr, blockquote, cite, figcaption, h1, h2, h3, h4, h5, h6, li, p, span, td {
+    font-weight: 300;
+}
+.home-description-calendario {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: #555;
+}
+
+.evento {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 110px;
+    margin-bottom: 10px;
+    background-color: #624b84;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 13pt;
+}
+.eventos-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 975px){
+    .evento {
+        width: 23.5%;
+        margin-right: 10px;
+    }
+}
+.data-evento {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 110px;
+    padding: 1.5rem;
+    text-align: center;
+}
+.mes-evento {
+    width: 100%;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.dia-evento {
+    width: 100%;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.description-evento {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.curso {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 110px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 13pt;
+}
+.cursos-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 975px){
+    .curso {
+        width: 23.5%;
+        margin-right: 10px;
+    }
+}
+
+.home-section:not(:last-child) {
+    margin: 0 0 0rem !important;
+}
+
+.home-section:not(:last-child) {
+    margin: 0 0 4rem;
+}
+.home-section {
+    width: 100%;
+}
+.home-header:not(:last-child) {
+    margin: 0rem;
+}
+
+.home-header:not(:last-child) {
+    margin: 4rem 0 2.25rem;
+}
+.home-header {
+    /* padding: 0 0 2rem; */
+    width: 100%;
+}
+.course {
+    height: auto;
+    margin-bottom: rem;
+}
+
+.home-body {
+    -ms-flex-flow: row wrap;
+    -ms-flex-pack: justify;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.home-course {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .home-course {
+        margin: 0;
+        width: 45rem;
+    }
+}
+.home-course-link {
+    -ms-flex-flow: column wrap;
+    -ms-flex-pack: start;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.home-course-icon {
+    height: 20rem;
+    margin: 3rem 0 2.25rem;
+    width: 100%;
+}
+[data-color=ads] .home-course-title {
+    color: #315982;
+}
+
+.home-course-title {
+    color: #666;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0 0 1rem;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+.home-course-text {
+    color: #666;
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.home-news {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .home-news {
+        margin: 0;
+        width: 44rem;
+    }
+}
+.home-news-link {
+    -ms-flex-flow: column wrap;
+    -ms-flex-pack: start;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+div.home-news-icon {
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+}
+img.home-news-icon {
+    width: 100%;
+}
+[data-color=ads] .home-news-title {
+    color: #315982;
+}
+
+.col-2 {
+    width: 50%;
+}
+.home-news-head {
+    display: inline-flex;
+    height: 30px;
+}
+.home-news-head .news-subtitle {
+    color: #959595;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0 0 0;
+    padding: 0 0;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+.home-news-head .news-date {
+    color: #959595;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0 0;
+    padding: 3px 0;
+    text-transform: uppercase;
+    text-align: right;
+}
+.home-news-title {
+    color: #666;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0 0 1rem;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+.home-news-text {
+    color: #666;
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+.fit-vids-style {
+    display: none;
+}
